@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de professor</title>
+    <link rel="stylesheet" href="CadProf.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+
+        </div>
+
+        <div class="tab_pesquisa">
+            <h1 class="titulo-centralizado">CADASTRO PROFESSOR</h1>
+            <br>
+            <form action="/cadastro_prof" id="/but" method="POST">
+                <div class="cad">
+                    
+                    <h1>Nome do aluno: <input type="text" name="nome"></h1>
+                    <h1>Matricula: <input type="text" name="matricula"></h1>
+                    <h1>CPF: <input type="text" name="cpf"></h1>
+                    <h1>Turma: <input type="text" name="turma"></h1>
+                    <h1>Email: <input type="text" name="email"></h1>
+                    <h1>Numero: <input type="text" name="numero"></h1>
+                    <h1>Data de nascimento: <input type="text" name="data_d_nasc"></h1>
+                    <h1>Materia: <input type="text" name="materia"></h1>
+                    <h1>Senha: <input type="text" name="senha"></h1>
+
+                </div>
+        
+            <div class="ano">
+                <label for="serie">Selecione o Ano:</label>
+                <select name="serie" id="serie">
+                    <option value="primeiro-ano">1 - Ano</option>
+                    <option value="segundo-ano">2 - Ano</option>
+                    <option value="terceiro-ano">3 - Ano</option>
+                </select>
+            </div>
+            <br>
+                <button class="bot">ENVIAR</button>
+            </form>
+
+        </div>
+    </div>
+</body>
+</html>
